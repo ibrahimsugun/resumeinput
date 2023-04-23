@@ -1,0 +1,272 @@
+/* MAİN SETTİNGS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  :root{--main-bg-color: #1f1f3c;}
+  
+  * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  
+  @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }}
+/* GENERAL SETTİNGS */
+
+    .page {
+        width: 21cm;
+        min-height: 29.7cm;
+       
+      }      
+    .subpage {
+        height: 256mm;
+        
+     }
+      
+@page {
+    size: A4;
+    margin: 0;
+  }
+  
+  @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }
+  }
+
+  .fullblue{
+    background-color:var(--main-bg-color);
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.bodyInfo{
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* HEADER */
+.hidir{
+
+  width: 100%;
+  height: 120px; 
+  background-color: var(--main-bg-color);
+  position: relative;
+  text-align: center;
+  display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ line-height: 40px;
+ 
+  }
+.hidirText{
+ 
+ font-size:27px;
+ color: white;
+ font-weight: 500;
+}
+.hidirText2{
+ font-size:20px;
+ color: white;
+ font-weight: 500;
+}
+
+/* Profile Image  */
+.imgg{
+    width:75%;
+    border: 4px var(--main-bg-color) solid;
+    margin: 29px 12%;
+}
+
+
+  /* LEFT BLOCK */
+.left{
+	width: 34%;
+	height: 100%;
+	float: left;
+}
+
+.leftCenter{
+    width: 80%;
+    height: 35px;
+    display: flex;
+    margin: 0px 10%;
+    align-items: center;
+    font-size: large;   
+    letter-spacing: 1px; 
+}
+/* icons */
+.ii{
+    color:var(--main-bg-color);
+    font-size: 36px;
+}
+
+/* Contact */
+.contactGroup{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+ }
+ .contactsocial{
+    display: flex;
+    width: 70%;
+    height: 30px;
+    align-items: center
+ }
+.directContact{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500 ;
+    font-size: 17px;
+}
+.persenalInfoLeft{
+   width: 50%;
+   margin-left: 25px;
+   line-height:30px;
+   margin-top: 10px; 
+   margin-bottom: 15px;   
+}
+
+.persenalInfoRight{
+    width: 50%;
+    margin-right: 0;
+    line-height:30px;
+    margin-top: 10px;
+    margin-bottom: 15px;  
+}
+.centerInLeft{
+    width: 80%;
+    margin: 10px auto 10px 0;
+    line-height:25px;
+    text-align: center;
+}
+/* end of left */
+
+
+/* Middle Line */
+.middle{
+  width: 5px;
+  background-color: var(--main-bg-color);
+  float: left;
+  height: 95%;
+  margin-top: 29px;
+  border-radius: 3px;
+}
+
+/* RİGHT BLOCK */
+.right{
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+
+.rightCenter{
+  width: 88%;
+  height: 38px;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  font-size: large;   
+  letter-spacing: 1px; 
+}
+/* About  */
+p{
+  width: 85%;
+  height: max-content;
+  margin: auto;
+  font-size: 14px;
+}
+/* Infos includes date - General */
+.dateInfo{
+width: 82%;
+margin: auto;
+line-height: 20px;
+font-size: 15px;
+}
+/* Dates */
+.date{
+	width: 30%;
+	float: left;
+
+}
+/* Where */
+.unit{
+	width: 64%;
+	float: left; 
+}
+/* vocation */
+.vocation{
+	width: 100%;
+  padding-left: 35%;
+}
+/* Skill block container */
+.skillsGroup{
+  width: 90%;
+  margin: auto auto 100px 50px;
+  
+}
+/* Logo & Name */
+.skillGroup{
+  width: 26%;
+  float: left;
+  display: flex;
+  align-items: center ;
+  justify-content: flex-start;
+  padding: auto 15px auto 15px;
+  font-size: 15px;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+/* Skill Logo */
+.skillGroup>img{
+  width: 30px;
+}
+
+/* Reference items container */
+.refGroup{
+  width: 90%;
+  margin: auto;
+  line-height: 18px;
+  font-size: 12px;
+}
+.refName{
+	width: 23%;
+	float: left;
+}
+.refContact{
+	width: 77%;
+	float: left;
+}
+.refUnit{
+	width: 85%; 
+  margin-left: auto;
+}
